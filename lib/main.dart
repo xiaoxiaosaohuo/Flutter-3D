@@ -4,6 +4,7 @@ import 'package:shared/env.dart';
 import 'demo.dart';
 import 'MyHomePage.dart';
 import 'Perspective.dart';
+import 'FlipNumber.dart';
 void main() => runApp(App());
 
 class App extends StatelessWidget {
@@ -18,7 +19,7 @@ class App extends StatelessWidget {
       DeviceOrientation.portraitUp,
     ]);
     return MaterialApp(
-      home: MyPerspectivePage(),
+      home: FlipNumberPage(),
     );
   }
 }
